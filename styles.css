@@ -1,0 +1,85 @@
+/* Apply some basic styles */
+:root {
+    --blue-color: #e1ff00;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.img.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  header {
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    font-size: 18px;
+    height: 25px;
+  }
+  
+  .bio {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .bio2 pre big h1 {
+    color: red; /* Adding a color value */
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  img {
+    max-width: 100%;
+    border: 5px solid #5e5e5e; /* Add a border to the image */
+    border-radius: 20px; /* Add border radius for rounded corners */
+    transition: transform 0.3s ease-in-out; /* Add image zoom on hover */
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--blue-color);
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: var(--blue-color);
+  }
+  try::after{
+    
+  }
+  
+  /* Add some padding to the footer */
+  .footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Improve alignment of the footer */
+  .footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px;
+  }
+  
+  /* Add transitions to social icons in the footer */
+  .footer ul li a img {
+    transition: transform 0.3s;
+  }
+  
+  .footer ul li a img:hover {
+    transform: scale(1.2);
+  }
+  
